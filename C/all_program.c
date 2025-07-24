@@ -1,4 +1,7 @@
 #include<stdio.h>
+#include "header/temp.h"
+
+
 int main()
 {
    printf("Welcome learn code\n");
@@ -6,5 +9,7 @@ int main()
   int num;
    printf("enter your Choice : ");
    scanf("%d",&num);
+   float value = cels_t_far(23.5);
+   printf("%f ",value);
    return 0;
 }
